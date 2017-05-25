@@ -1,0 +1,194 @@
+/* BASE: basisstijlen van de HTML-elementen */
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+
+/* LAYOUT: algemene lay-out */
+
+body {
+    background-color: white;
+}
+
+h1,
+h2,
+.keywords,
+ul {
+    font-family: 'Dosis', serif;
+    color: rgb(60, 95, 75);
+}
+
+h4,
+p,
+table,
+footer {
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 1.5;
+    color: rgb(60, 95, 75);
+}
+
+/* pagina home */
+
+#header_logo{
+    width: 110%;
+    margin-top: 50px;
+}
+
+#home_afbeelding{
+    width:100%;
+    margin: 50px 0 100px 0;
+    opacity: 0.8;
+}
+
+#welkom {
+    text-align: center;
+}
+
+/* pagina contact*/
+
+.contact_layout {
+    background-color: rgb(113, 170, 136);
+    border-radius: 10px;
+    padding: 40px 60px;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 1.5;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    float: left;
+}
+
+.fa {
+    color: rgb(113, 170, 136);
+}
+
+#vragen_balk {
+    width: 50px;
+}
+
+.nog_vragen {
+    color: rgb(113, 170, 136);
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top:20px;
+}
+
+.langskomen {
+    font-size: 1.1em;
+    float: left;
+    margin-right: 95px;
+    color: white;
+}
+
+.bellen {
+    font-size: 1.1em;
+    float: left;
+    margin-right: 95px;
+    color: white;
+}
+
+.mailen {
+    font-size: 1.1em;
+    color: white;
+}
+
+.formulier_vragen {
+    margin: 40px 0 20px 0;
+}
+
+/* pagina wie zijn wij */
+
+.tekst_wiezijnwij {
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.fien {
+    background-color: rgb(113, 170, 136);
+    margin-bottom: 30px;
+    border-radius: 15px;
+    height: 400px;
+    padding: 50px;
+}
+
+#fien_profielfoto {
+    width: 30%;
+    float: left;
+    border-radius: 80px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.ruth {
+    background-color: rgb(113, 170, 136);
+    margin-bottom: 30px;
+    border-radius: 15px;
+    float: right;
+    height: 400px;
+    padding: 50px;
+}
+
+#ruth_profielfoto {
+    width: 30%;
+    border-radius: 80px;
+    float: right;
+    margin-left: 30px;
+}
+
+.esmee {
+    background-color: rgb(113, 170, 136);
+    margin-bottom: 100px;
+    border-radius: 15px;
+    float: left;
+    height: 400px;
+    padding: 50px;
+}
+
+#esmee_profielfoto {
+    width: 30%;
+    border-radius: 80px;
+    float: left;
+    margin-left: 30px;
+}
+
+/* pagina portfolio */
+
+.portfolio {
+    height: 200px;
+    margin-bottom: 60px;
+    background-image: url("/Documenten/Semester_2/WEBD II/95000_osselaer_fien/fienosse.github.io/assets/chakras.jpg");
+    background-repeat: no-repeat;
+    background-size: 300px 200px;
+    border: none;
+}
+
+.portfolio a:hover {
+    color: lightgrey;
+}
+
+/* footer */
+
+footer {
+    background-color: rgb(60, 95, 75);
+    padding: 10px 0;   
+}
+
+.footer_socialicons a {
+    background-color: rgb(60, 95, 75);
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+}
+
+/* http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix::before,
+.clearfix::after {
+    content: " ";
+    display: table;
+}
+.clearfix::after {
+    clear: both;
+}
+
+
+
